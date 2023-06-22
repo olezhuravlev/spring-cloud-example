@@ -3,7 +3,6 @@ package dik.rentfare.model;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
 import java.math.BigDecimal;
 
 @Data

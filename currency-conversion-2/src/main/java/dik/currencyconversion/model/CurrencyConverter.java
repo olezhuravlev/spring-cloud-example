@@ -11,12 +11,11 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 public class CurrencyConverter {
 
-	private Long id;
+    private Long id;
 
-	private String currencyFrom;
+    private String currencyFrom;
 
-	private String currencyTo;
+    private String currencyTo;
 
-	private BigDecimal conversionRate;
-
+    private BigDecimal conversionRate;
 }

@@ -1,11 +1,13 @@
 package dik.rentservice.model;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import javax.persistence.*;
-import javax.persistence.Id;
 
 @Data
 @NoArgsConstructor
@@ -21,9 +23,9 @@ public class Rent {
 
     private String customer;
 
-    @Column(name="startdate")
+    @Column(name = "startdate")
     private String startDate;
 
-    @Column(name="enddate")
+    @Column(name = "enddate")
     private String endDate;
 }
